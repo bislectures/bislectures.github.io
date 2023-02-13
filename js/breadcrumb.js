@@ -1,3 +1,9 @@
+var names = {
+  "lectureone": "Lecture One",
+  "lecturetwo": "Lecture Two",
+  "commerciallaw": "Commercial Law"
+};
+
 var path = window.location.pathname;
 var breadcrumb = document.getElementById("breadcrumb");
 
@@ -12,10 +18,18 @@ for (var i = 0; i < segments.length; i++) {
     continue;
   }
   if (i === segments.length - 1) {
-    segment = segment.charAt(0).toUpperCase() + segment.slice(1);
+    if (names[segment]) {
+      segment = names[segment];
+    } else {
+      segment = segment.charAt(0).toUpperCase() + segment.slice(1);
+    }
     breadcrumbHTML += "<span style='color: white; text-decoration: none'>" + segment + "</span>";
   } else {
-    segment = segment.charAt(0).toUpperCase() + segment.slice(1);
+    if (names[segment]) {
+      segment = names[segment];
+    } else {
+      segment = segment.charAt(0).toUpperCase() + segment.slice(1);
+    }
     breadcrumbHTML += "<a href='" + "/".repeat(i) + segment + "/' style='color: white; text-decoration: underline'>" + segment + "</a>";
   }
   if (i !== segments.length - 1) {
