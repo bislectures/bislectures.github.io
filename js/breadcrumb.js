@@ -30,14 +30,10 @@ for (var i = 0; i < segments.length; i++) {
     } else {
       segment = segment.charAt(0).toUpperCase() + segment.slice(1);
     }
-    if (i === segments.length - 2) {
-      breadcrumbHTML += "<a href='https://bislectures.github.io/" + segments.slice(1, i + 1).join("/").replace(/ /g, "%20") + "' style='color: white; text-decoration: underline'>" + segment + "</a>";
-    } else {
-      breadcrumbHTML += "<a href='https://bislectures.github.io/" + segments.slice(1, i + 1).join("/").replace(/ /g, "%20") + "/' style='color: white; text-decoration: underline'>" + segment + "</a>";
+    breadcrumbHTML += "<a href='https://bislectures.github.io/" + segments.slice(1, i + 1).join("/").replace(/ /g, "%20") + "/' style='color: white; text-decoration: underline'>" + segment + "</a>";
+    if (i !== segments.length - 2) {
+      breadcrumbHTML += " / ";
     }
-  }
-  if (i !== segments.length - 1) {
-    breadcrumbHTML += " / ";
   }
 }
 
