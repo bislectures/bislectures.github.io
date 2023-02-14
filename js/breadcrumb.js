@@ -1,5 +1,5 @@
 var names = {
-  "lectureone": "Lecture One",
+  "lecture1": "Lecture One",
   "lecturetwo": "Lecture Two",
   "commerciallaw": "Commercial Law"
 };
