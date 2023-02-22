@@ -1,7 +1,9 @@
 var names = {
   "lecture1": "Lecture One",
-  "lecturetwo": "Lecture Two",
-  "commerciallaw": "Commercial Law"
+  "lecture2": "Lecture Two",
+  "commerciallaw": "Commercial Law",
+  "appliedstatistics": "Applied Statistics",
+  "dribrahimtawfik": "Dr. Ibrahim Tawfik"
 };
 
 var path = window.location.pathname;
