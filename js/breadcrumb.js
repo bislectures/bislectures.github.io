@@ -4,7 +4,8 @@ var names = {
   "commerciallaw": "Commercial Law",
   "appliedstatistics": "Applied Statistics",
   "dribrahimtawfik": "Dr. Ibrahim Tawfik",
-  "drmohammedali": "Dr. Mohammed Ali"
+  "drmohammedali": "Dr. Mohammed Ali",
+  "drmark": "Dr. Mark"
 };
 
 var path = window.location.pathname;
