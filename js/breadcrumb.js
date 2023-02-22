@@ -5,7 +5,8 @@ var names = {
   "appliedstatistics": "Applied Statistics",
   "dribrahimtawfik": "Dr. Ibrahim Tawfik",
   "drmohammedali": "Dr. Mohammed Ali",
-  "drmark": "Dr. Mark"
+  "drmark": "Dr. Mark",
+  "drrehab": "Dr. Rehab"
 };
 
 var path = window.location.pathname;
