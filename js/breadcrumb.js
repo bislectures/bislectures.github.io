@@ -3,7 +3,8 @@ var names = {
   "lecture2": "Lecture Two",
   "commerciallaw": "Commercial Law",
   "appliedstatistics": "Applied Statistics",
-  "dribrahimtawfik": "Dr. Ibrahim Tawfik"
+  "dribrahimtawfik": "Dr. Ibrahim Tawfik",
+  "drmohammedali": "Dr. Mohammed Ali"
 };
 
 var path = window.location.pathname;
