@@ -1,8 +1,11 @@
 var names = {
   "lecture1": "Lecture One",
   "lecture2": "Lecture Two",
+  "lecture3": "Lecture Three",
+  "lecture4": "Lecture Four",
   "commerciallaw": "Commercial Law",
   "appliedstatistics": "Applied Statistics",
+  "managerialaccounting": "Managerial Accounting"
   "dribrahimtawfik": "Dr. Ibrahim Tawfik",
   "drmohammedali": "Dr. Mohammed Ali",
   "drmark": "Dr. Mark",
