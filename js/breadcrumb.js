@@ -5,7 +5,7 @@ var names = {
   "lecture4": "Lecture Four",
   "commerciallaw": "Commercial Law",
   "appliedstatistics": "Applied Statistics",
-  "managerialaccounting": "Managerial Accounting"
+  "managerialaccounting": "Managerial Accounting",
   "dribrahimtawfik": "Dr. Ibrahim Tawfik",
   "drmohammedali": "Dr. Mohammed Ali",
   "drmark": "Dr. Mark",
